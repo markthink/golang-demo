@@ -1,4 +1,4 @@
-FROM cargo.caicloudprivatetest.com/caicloud/golang:v1.0.1
+FROM cargo.caicloud.io/caicloud/golang
 ADD server.go /go/server.go
 EXPOSE 80
 CMD ["go","run", "server.go"]
